@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "skyfoundry",
+  "version": "${version}",
+  "name": "Skyfoundry",
+  "description": "Shape terrain into a floating island and launch it through the world.",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.enderdevelopment.skyfoundry.SkyfoundryMod"],
+    "client": ["dev.enderdevelopment.skyfoundry.SkyfoundryClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
